@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "services": {
+      "type": "text"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "funeral_type": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "string"
+    },
+    "arrangements": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "funeral_location": {
+      "type": "string"
+    },
+    "facilities": {
+      "type": "string"
+    },
+    "transport": {
+      "type": "string"
+    },
+    "coffin": {
+      "type": "string"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "headstone_monuments": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "guests": {
+      "type": "biginteger"
+    },
+    "code": {
+      "type": "string"
+    }
+  }
+}

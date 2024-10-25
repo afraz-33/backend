@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "residence": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "text"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "contact_pref": {
+      "type": "string"
+    },
+    "contact_time": {
+      "type": "string"
+    },
+    "funeral_pref": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

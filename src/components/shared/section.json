@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_sections",
+  "info": {
+    "displayName": "section"
+  },
+  "options": {},
+  "attributes": {
+    "paragraph": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}
