@@ -76,6 +76,12 @@
     },
     "code": {
       "type": "string"
+    },
+    "impression": {
+      "displayName": "image",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image"
     }
   }
 }
