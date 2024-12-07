@@ -20,6 +20,9 @@
     "title": {
       "type": "string"
     },
+    "details": {
+      "type": "string"
+    },
     "image": {
       "allowedTypes": [
         "images",

@@ -6,10 +6,10 @@
   "options": {},
   "attributes": {
     "paragraph": {
-      "type": "string"
+      "type": "richtext"
     },
     "heading": {
-      "type": "string"
+      "type": "richtext"
     }
   }
 }
